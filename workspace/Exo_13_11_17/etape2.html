@@ -1,0 +1,26 @@
+<!doctype>
+<html>
+  <link href="css/master.css" rel="stylesheet">
+  <meta charset="utf-8">
+</html>
+<head>
+  <script type="text/javascript" src="js/blackjack.js"></script>
+</head>
+<body>
+
+  <form onsubmit="giveCard(); return false;">
+    <input type=submit value="More"></button>
+  </form>
+  <form onsubmit="endRound(); return false;">
+    <input type=submit value="Stop"></button>
+  </form>
+
+  <p>Player :</p>
+  <span id="userValue"></span>
+
+  <p>CPU : </p>
+  <span id="cpuValue"></span>
+
+  <p id="result"></p>
+
+</body>
